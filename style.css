@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    background: url(./img/matrix.jpg);
+    background-size: 100%;
+    background-color: green;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+    margin: 30px;
+}
+
+.entrada-texto, .icono, input, h3, .ultimo-parrafo{
+    font-family: 'Space Mono', monospace;
+}
+
+.entrada-texto{
+    height: 35vh;
+    width: 100%;
+    font-size: 2.0rem;
+    color: #0A3871;
+    line-height: 48px;
+    padding: 4rem 0 1rem 1rem;
+    border: none;
+    resize: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    line-height: 1.5;
+}
+
+textarea.entrada-texto:focus{
+    outline: none;
+} 
+
+.entrada-texto::placeholder {
+    color: #0A3871;
+    font-size: 2.0rem;
+}
+
+.icono{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url('./img/icono.svg');
+    margin:  0 0.5rem;
+    position: relative;
+    top: 0.25rem;
+}
+
+.advertencia{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+  
+.botones div{
+    padding: 1rem;
+    font-size: 0.75rem;
+    position: relative;
+    text-align: center;
+}
+
+.botones ul{
+    padding: 0 1.5rem;
+}
+
+input.boton-codificar, .boton-decodificar{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: solid 1px #0A3871;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: 1s all;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.boton-codificar{
+    background-color: #0A3871;
+    color: orangered;
+}
+
+.boton-codificar:hover{
+    background: #D8DFE8;
+    transform: scale(1.1);
+}
+
+.boton-decodificar{
+    background-color: #FFFFFF;
+    color: orangered;
+}
+
+.boton-decodificar:hover{
+    background: #0A3871;
+    transform: scale(1.1);
+}
+
+.bloque-salida{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    margin: 0 1.5rem;
+    padding: 2.25rem 1rem;
+    min-height: 25vh;
+    box-shadow: 2px 2px 2px 2px grey;
+    font-size: 2.0rem;
+    color: #0A3871;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.8px;
+    color: #0A3871;
+}
+
+.imagen-decifrando{
+    width: 150px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.imagen-decifrando:hover{
+    transform: scale(1.2);
+}
+
+.ultimo-parrafo{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A3871;
+}
+
+::placeholder {
+    color: inherit;
+}
+
+footer{
+    text-align: center;
+    background: url("./img/bg.jpg");
+    font-size: 1rem;
+    padding: 40px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

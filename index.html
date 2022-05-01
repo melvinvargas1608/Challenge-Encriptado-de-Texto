@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title><link rel="stylesheet" href="./style-reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img class="logo" src="./img/logo.svg" alt="Logo Alura Latam">
+    </header>
+    <div class="contenedor-texto">
+        <textarea class="entrada-texto" id="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+    </div>
+    <div class="botones">
+        <div class="advertencia"><span class="icono"></span>Solo letras minúsculas y sin acentos</div>
+        <div>
+            <ul>
+                <li><input type="button" class="boton-codificar" id="btn-codificar" value="Codificar"></li>
+                <li><input type="button" class="boton-decodificar" id="btn-decodificar" value="Decodificar"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bloque-salida">
+        <div class="bloque-salida-info">
+            <div>
+                <img class="imagen-decifrando" id="ocultar" src="./img/decifrando.png" alt="">
+            </div>
+            <p><h3 class="texto">Ningun mensaje fue encontrado</h3></p>
+            <p class="ultimo-parrafo">Ingrese el texto que desea codificar o decodificar</p>
+        </div>
+    </div>
+    <footer>
+        <p class="copyright">Created by Melvin Vargas&copy</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
